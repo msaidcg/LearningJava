@@ -1,1 +1,19 @@
+public class Clase{
+    //Atributo
+    private String nombre;
 
+    //Constructor
+    public Clase(String nombre){
+        this.nombre = nombre;
+    }
+
+    //Getters & setters
+    public String getNombre(){
+        return nombre;
+    }
+
+    public void setNombre(String nombre){
+        this.nombre=nombre;
+    }
+
+}
